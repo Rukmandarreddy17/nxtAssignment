@@ -1,0 +1,272 @@
+/* General Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007BFF;
+}
+
+.nav-buttons button {
+  margin-left: 10px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.biz-login {
+  background-color: transparent;
+  color: #007BFF;
+  border: 2px solid #007BFF;
+}
+
+.login {
+  background-color: #007BFF;
+  color: #ffffff;
+  border: none;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.main-heading {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.sub-heading {
+  font-size: 18px;
+  color: #666666;
+  margin: 10px 0 20px;
+}
+
+.search-section {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.location-dropdown, .search-input {
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  width: 250px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Services Section */
+.services {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.services h2 {
+  font-size: 28px;
+  color: #333333;
+}
+
+.service-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.service-card {
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3 {
+  font-size: 18px;
+  color: #007BFF;
+}
+
+.service-card p {
+  font-size: 14px;
+  color: #666666;
+}
+
+/* Steps Section */
+.steps {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.step-cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.step-card {
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.step-card h4 {
+  font-size: 18px;
+  color: #333333;
+}
+
+.step-card p {
+  font-size: 14px;
+  color: #666666;
+}
+
+/* Vendors Section */
+.vendors {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.vendor-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.vendor-card {
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.vendor-card h3 {
+  font-size: 18px;
+  color: #333333;
+}
+
+.vendor-card p {
+  font-size: 14px;
+  color: #666666;
+}
+
+.vendor-card a {
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Testimonials Section */
+.testimonials {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.testimonial-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  margin: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card p {
+  font-size: 14px;
+  color: #666666;
+  margin: 10px 0;
+}
+
+.testimonial-card strong {
+  font-size: 16px;
+  color: #333333;
+}
+
+/* Footer */
+.footer {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-top {
+  margin-bottom: 20px;
+}
+
+.footer-input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  margin-right: 10px;
+}
+
+.footer-button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.footer-links a {
+  color: #ffffff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-logo {
+  margin-top: 10px;
+  font-size: 14px;
+}

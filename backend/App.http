@@ -1,0 +1,18 @@
+GET http://localhost:3000/locations
+###
+GET http://localhost:3000/appliances
+###
+GET http://localhost:3000/featured-technicians
+###
+POST http://localhost:3000//userLogin
+content-type:application/json
+{
+  "email":"JoeBiden",
+  "password":"biden@123"
+}
+###
+POST http://localhost:3000//technicianLogin
+content-type:application/json
+{
+  "name":"Random"
+}
